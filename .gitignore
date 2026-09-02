@@ -20,7 +20,6 @@ package-lock.json
 .cursor
 
 # IDE - VSCode
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -58,7 +57,6 @@ vitest.config.*.timestamp*
 
 .eslintcache
 .tmp/
-.env.local
 
 # Python package metadata
 *.egg-info/
@@ -83,3 +81,4 @@ examples/**/*.png
 temp_auto_push.bat
 temp_interactive_push.bat
 branch_structure.json
+config.bat
