@@ -19168,7 +19168,7 @@ __metadata:
     nestjs-opensearch: "npm:^1.4.1"
     nestjs-pino: "npm:^4.4.1"
     node-cache: "npm:^5.1.2"
-    nodemailer: "npm:^7.0.11"
+    nodemailer: "npm:^10.0.2"
     nx: "npm:21.4.1"
     oidc-client-ts: "npm:^3.2.0"
     passport: "npm:^0.7.0"
@@ -29112,10 +29112,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemailer@npm:^7.0.11":
-  version: 7.0.11
-  resolution: "nodemailer@npm:7.0.11"
-  checksum: 10c0/208f108fdb4c5dd0e3a2f013578d53dad505cf1b9c7a084f6d22fc9d6f3912daafb4a23793ca568ff848afc35f15f4eb24382d3f6f9fb8ede4a8410d4ca63618
+"nodemailer@npm:^10.0.2":
+  version: 10.0.2
+  resolution: "nodemailer@npm:10.0.2"
+  checksum: 10c0/dd95a9fef50652e724c7966517c537e0a207f5faa17a6c5daf7e392e74a1d01a9453747b03306d7e2e271ee3500cc42c8deca970859222d398a456c658b13592
   languageName: node
   linkType: hard
 
