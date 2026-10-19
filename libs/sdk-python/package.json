@@ -4,7 +4,7 @@
     "docsDir": "../../apps/docs/src/content/docs/en/python-sdk"
   },
   "scripts": {
-    "build": "python -m build",
+    "build": "node init && python -m build",
     "docs": "bash -O extglob -c 'rm -rf $npm_package_config_docsDir/!(index.mdx)' && npm run docs:common && npm run docs:sync && npm run docs:async",
     "docs:common": "bash -O extglob -c 'rm -rf $npm_package_config_docsDir/common' && npm run docs:errors && npm run docs:charts && npm run docs:image",
     "docs:sync": "bash -O extglob -c 'rm -rf $npm_package_config_docsDir/sync' && npm run docs:daytona && npm run docs:sandbox && npm run docs:filesystem && npm run docs:git && npm run docs:process && npm run docs:lsp && npm run docs:volume && npm run docs:object_storage && npm run docs:snapshot && npm run docs:computer_use && npm run docs:code_interpreter",
